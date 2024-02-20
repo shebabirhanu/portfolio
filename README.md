@@ -1,2 +1,2 @@
 # portfolio
-Portfolio
+Portfolio site built using HTML, CSS, and JS. 
