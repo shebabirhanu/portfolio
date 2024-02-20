@@ -1,3 +1,75 @@
 ul {
     list-style-type:none;
 }
+
+main {
+    display: block;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+a {
+    background-color: #0000;
+}
+
+img {
+    border-style: none;
+}
+
+progress {
+    vertical-align: baseline;
+}
+
+textarea {
+    overflow: auto;
+}
+
+body {
+    color: #d1d1d1;
+    background: #1d1d20;
+    font-family: Montserrat-Regular;
+}
+
+h1, h2 {
+    font-weight: 100;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+  }
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+
+  .nav-links ul li {
+    padding: 10px;
+  }
+  
+
+.logo  {
+    width: 15vw;
+  }
+
+a {
+    width: 100px;
+}
+
