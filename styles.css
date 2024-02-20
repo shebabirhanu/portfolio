@@ -73,3 +73,6 @@ a {
     width: 100px;
 }
 
+#welcome h1 {
+    font-family: 'Montserrat', sans-serif;
+}
