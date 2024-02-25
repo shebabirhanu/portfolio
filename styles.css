@@ -1,3 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --grad-1: rgb(137,103,205);
+    --grad-2: rgb(124,151,53);
+}
+
+.top-left-animation {
+    position: absolute;
+    z-index: 2;
+    padding: 0px;
+    margin: 0px;
+}
+
 ul {
     list-style-type:none;
 }
@@ -15,11 +33,6 @@ hr {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
-}
-
-pre {
-    font-family: monospace, monospace;
-    font-size: 1em;
 }
 
 a {
@@ -41,7 +54,6 @@ textarea {
 body {
     color: #d1d1d1;
     background: #1d1d20;
-    font-family: Montserrat-Regular;
 }
 
 h1, h2 {
@@ -75,4 +87,19 @@ a {
 
 #welcome h1 {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.personal-description {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+}
+
+footer {
+    padding: 40px;
+    text-align: left;
 }
